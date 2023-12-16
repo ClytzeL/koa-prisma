@@ -1,0 +1,22 @@
+{
+  "name": "koa-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.1",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.7.0",
+    "prisma": "^5.7.0"
+  }
+}
